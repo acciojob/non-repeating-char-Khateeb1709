@@ -7,11 +7,13 @@ function firstNonRepeatedChar(str) {
 			 return curr;
 		 }
 		 else{
-			 while(str.charAt(i)==curr)i++;
+			 while(str.charAt(i)==curr){
+				 i++;
+			 }
 		 }
 	 }
 	 return null;
 }
 
-const input = prompt("Enter a string");
+// const input = prompt("Enter a string");
 alert(firstNonRepeatedChar(input)); 
