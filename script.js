@@ -1,3 +1,7 @@
+
+const input = prompt("Enter a string");
+alert(firstNonRepeatedChar(input)); 
+
 function firstNonRepeatedChar(str) {
  // Write your code here
 	  let obj = {};
@@ -19,6 +23,3 @@ function firstNonRepeatedChar(str) {
 
 	return null;
 }
-
-const input = prompt("Enter a string");
-alert(firstNonRepeatedChar(input)); 
