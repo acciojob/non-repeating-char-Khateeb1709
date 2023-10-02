@@ -1,5 +1,5 @@
 
-function firstNonRepeatedChar(str) {
+function firstNonRepeatedChar(str){
  // Write your code here
 	  let obj = {};
 
